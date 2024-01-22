@@ -14,6 +14,7 @@
             align-items: center;
             flex-direction: column;
             color: #333;
+            position: relative;
         }
 
         h1 {
@@ -27,17 +28,26 @@
         }
 
         a {
-            color: #003636; /* Dark Cyan */
+            color: #003636;
             text-decoration: none;
         }
 
         a:hover {
             text-decoration: underline;
         }
+
+        .logo {
+            position: absolute;
+            top: 60px;
+            right: 60px; /* Decreased to move the logo more to the left */
+            height: 27px;
+        }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+    <img src="https://akkviz-ag.github.io/web-temp/img/logo_t_flat.png" class="logo">
+
     <div class="content">
         <h1>Our Website is Under Construction</h1>
         <p>We are currently looking for talented individuals to join our team. Check out our <a href="https://akkviz-ag.github.io/web-temp/job-description-akkviz.pdf" target="_blank">job description</a> for more details.</p>
